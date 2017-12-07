@@ -43,3 +43,7 @@
 如果需要修改默认参数，记得修改上述的service文件。
 
 对于Windows机器，貌似可以直接用 `dotnet PortProxy.dll &lt;参数&gt;`直接运行，至于服务化嘛……懒得搞……完全可以搞成一个Windows Service，有兴趣的自己搞了。
+
+## 授权
+
+> GPLv3
