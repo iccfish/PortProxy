@@ -1,0 +1,14 @@
+[Unit]
+Description=PortProxy Service
+After=network.target
+
+[Service]
+Type=simple
+PIDFile=/run/portproxy.pid
+ExecStart=/usr/bin/dotnet /data/server/portproxy/PortProxy.dll
+Restart=on-abort
+ExecReload=/bin/kill -s HUP $MAINPID
+ExecStop=/bin/kill -s QUIT $MAINPID
+
+[Install]
+WantedBy=network.target

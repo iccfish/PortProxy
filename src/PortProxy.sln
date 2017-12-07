@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.0.0
+MinimumVisualStudioVersion = 10.0.0.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortProxy", "PortProxy\PortProxy.csproj", "{0355EA10-9F6B-41DD-9E60-09D7557C82C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortProxy.Tests", "PortProxy.Tests\PortProxy.Tests.csproj", "{5910E57D-C82B-4B4D-81AC-9EE2AC8E3A9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0355EA10-9F6B-41DD-9E60-09D7557C82C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0355EA10-9F6B-41DD-9E60-09D7557C82C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0355EA10-9F6B-41DD-9E60-09D7557C82C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0355EA10-9F6B-41DD-9E60-09D7557C82C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5910E57D-C82B-4B4D-81AC-9EE2AC8E3A9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5910E57D-C82B-4B4D-81AC-9EE2AC8E3A9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5910E57D-C82B-4B4D-81AC-9EE2AC8E3A9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5910E57D-C82B-4B4D-81AC-9EE2AC8E3A9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
